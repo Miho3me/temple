@@ -4,14 +4,23 @@
     <meta charset="utf-8">
     <title>あーねんまつ</title>
     <link rel="stylesheet" href="./design.css" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="./analytics.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="./slidebar.js"></script>
   </head>
   <body>
     <center>
+      <div id="slidervalue"></div>
       <div id="title">joyanoka.net</div>
         <p id="about">己の煩悩の数だけ打つべし</p>
-      <div id="count">0</div>
-      <button id="push">🏮🔨</button>
+        <div id="main">
+          <div id="count">0</div>
+          <button id="push">🏮🔨</button><button id="kakusi">自分で</button>
+          <br>
+          <img id="kane" src="http://www.sashienomori.com/110504_2/kane.gif"><div id="slider" style="width:300px"></div>
+        </div>
       <div id="copyright">copyright (C) 2016 Twitter:<a href="https://twitter.com/Miho3me/">@Miho3me</a>|音楽：ＮＨＫクリエイティブ・ライブラリー</div>
     </center>
   <script src="script.js"></script>
