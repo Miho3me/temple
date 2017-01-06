@@ -25,3 +25,11 @@ button{
   bottom: 0px;
   width:100%;
 }
+#kakusi,#slider,#kane,#uketori{
+  display: none;
+}
+
+#kane{
+  width:30%;
+  height:30%;
+}
